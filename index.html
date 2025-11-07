@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>A Garden for [Her Name]</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Lato:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <main>
+        <!-- The main interactive garden section -->
+        <section id="garden-container">
+            <div id="interactive-garden">
+                <img src="images/branch.png" alt="Bare Branch" class="branch">
+                <div class="garden-elements"></div>
+            </div>
+            <div class="intro-text">
+                <h1>HAPPY BIRTHDAY DIYORIIIII</h1>
+                <p>I always see ur actions as flowers, so beautiful and unique color tones everytime. These flowers(click the branches, damihan mo para maangas) are parts of you na very admirable:3 and shows how delicate kang well-being</p>
+            </div>
+        </section>
+
+        <!-- The new swipeable gallery section -->
+        <section id="gallery-section" class="content-section">
+            <h2>Moments in Time</h2>
+            <p class="subtitle">A few memories that shine bright. Swipe to see more.</p>
+            <div class="gallery-container">
+                <div class="gallery-slider">
+                    <!-- SLIDE 1 -->
+                    <div class="gallery-slide">
+                        <img src="images/gallery-1.jpg" alt="Description of memory 1">
+                        <p class="caption">ehehe alele bagay mo bunny</p>
+                    </div>
+                    <!-- SLIDE 2 -->
+                    <div class="gallery-slide">
+                        <img src="images/gallery-2.jpg" alt="Description of memory 2">
+                        <p class="caption">EXPRESSION NA IMBENTO MO HAHAHAHA</p>
+                    </div>
+                    <!-- SLIDE 3 -->
+                    <div class="gallery-slide">
+                        <img src="images/gallery-3.jpg" alt="Description of memory 3">
+                        <p class="caption">My favorite pic ehe, cutie expression</p>
+                    </div>
+                </div>
+                <div class="gallery-dots"></div>
+            </div>
+        </section>
+
+        <!-- The music player section -->
+        <section id="playlist-section" class="content-section">
+            <h2>Agaw-dilim by Zild</h2>
+            <p class="subtitle">I know the feeling although di ko alam yung full scope, its valid. Reality is harsh na kahit anong ganda ng hope its not that easy to live it. Live for the little things, wag masyado magisip ng mabigat;>
+                I really like you so much kaya im sharing this song coz this helped me seek solace sa mundong toh.
+            </p>
+            <audio controls id="audio-player">
+                <source src="music/rainy-day.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </section>
+
+        <!-- The constellation of strengths section -->
+        <section id="constellation-section" class="content-section">
+            <h2>Star Qualities</h2>
+            <p class="subtitle">pindutin mo mga stars ngani</p>
+            <div class="constellation-map">
+                <div class="star" style="top: 20%; left: 15%;" data-strength="Ang tibay mo, so tuff. Gotta be one of ur strength"></div>
+                <div class="star" style="top: 50%; left: 25%;" data-strength="Attractively goofy"></div>
+                <div class="star" style="top: 30%; left: 50%;" data-strength="BRAH WEIRDNESS MO IS A 10 FOR ME(my type)"></div>
+                <div class="star" style="top: 65%; left: 60%;" data-strength="You think creatively not just sa art but also sa conversations naten, I wanna try making a song with your inputs"></div>
+                <div class="star" style="top: 40%; left: 80%;" data-strength="Mas mature ka pa sa half ng kakilala ko na di ko tinuloy makipagkaibigan"></div>
+                <div class="star" style="top: 75%; left: 40%;" data-strength="smol ahh nigga XD cutie"></div>
+            </div>
+            <div id="strength-display"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>HAPPY BIRTHDAY NIGGA</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
