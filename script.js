@@ -7,10 +7,10 @@ document.addEventListener('DOMContentLoaded', () => {
     // EDIT THIS: Add your memories, compliments, or birthday wishes here.
     const messages = [
         "Simula pa nung first meetup, I really fell sa yapper side mo",
-        "U always smile pag napapatitig ako sayo",
+        "Ur pikit mata smile pag napapatitig ako sayo",
         "tapang mo at di ka nahihiya sa madaming bagay except for that tiktok repost XD",
-        "Happy Birthday! Hope you have a wonderful day.",
-        "You have a strength you might not even see.",
+        "Ur humor. i love it.",
+        "",
         "Here's to another year of amazing you.",
         "Your kindness makes the world a better place.",
         "Just a little reminder of how awesome you are."
