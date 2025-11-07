@@ -10,10 +10,14 @@ document.addEventListener('DOMContentLoaded', () => {
         "Ur pikit mata smile pag napapatitig ako sayo",
         "tapang mo at di ka nahihiya sa madaming bagay except for that tiktok repost XD",
         "Ur humor. i love it.",
-        "",
-        "Here's to another year of amazing you.",
-        "Your kindness makes the world a better place.",
-        "Just a little reminder of how awesome you are."
+        "ANGAS PARIN TALAGA KAHIT MALANDI",
+        "mga iwas tingin mo ><",
+        "surface level pa nakikita ko pero andami na",
+        "very observative",
+        "comforting words.",
+        "quirky na medyo useful: memory mo",
+        "bravely opens up IDOL",
+        "roblox diss sa bisaya "
     ];
     
     // EDIT THIS: Add paths to the images you want to appear in the garden.
